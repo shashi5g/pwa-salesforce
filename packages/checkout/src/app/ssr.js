@@ -12,7 +12,7 @@ const mobify = {
   "ssrOnly": [
       "ssr.js",
       "ssr.js.map",
-      "../../../../node_modules/**/*.*"
+      "node_modules/**/*.*"
   ],
   "ssrShared": [
       "static/favicon.ico",

@@ -10,9 +10,10 @@
   "devDependencies": {
     "@nx/workspace": "16.8.1",
     "nx": "16.8.1",
-    "nx-cloud": "latest"
+    "nx-cloud": "latest",
+    "typescript": "^5.2.2"
   },
-   "workspaces": {
+  "workspaces": {
     "packages": [
       "packages/*"
     ],

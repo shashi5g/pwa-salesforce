@@ -155,7 +155,7 @@ const Home = () => {
                     </Stack>
                 </Section>
             )}
-<ChakraLink as={ReactRouterLink} to='/my-new-route'>my-new-route</ChakraLink>
+            <ChakraLink as={ReactRouterLink} to='/my-new-route'>my-new-route</ChakraLink>
         </Box>
     )
 }
