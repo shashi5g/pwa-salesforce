@@ -1,0 +1,23 @@
+{
+  "name": "@package-based/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "@nx/workspace": "16.8.1",
+    "nx": "16.8.1",
+    "nx-cloud": "latest"
+  },
+   "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/checkout/**"
+    ]
+  }
+}
