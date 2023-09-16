@@ -1,3 +1,10 @@
+
+#nohoisting PWA kit app
+
+added the app in nohoist array, so that  dependency installed in its own app/node_modules folder
+its works with yarn package currently
+
+
 # PackageBased
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
