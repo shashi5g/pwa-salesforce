@@ -12,14 +12,12 @@ import { Link } from '@chakra-ui/react';
 
 import { Link as ReactRouterLink } from 'react-router-dom'
 import { isEven } from 'is-even';
-import {ButtonTest} from 'ui-kits';
+import {ButtonTest,CounterComp} from 'ui-kits';
 
 const MyPreview = () => {
-   
-    return <div>There are <ButtonTest>{isEven(3)?'even':'odd'} categories.</ButtonTest></div>
+    return <div>There are <ButtonTest>{isEven(4)?'even':'odd'} categories.</ButtonTest>
+    <CounterComp/></div>
 
-
-  
 }
 
 

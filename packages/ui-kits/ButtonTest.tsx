@@ -1,7 +1,8 @@
 import * as React from 'react';
+import {Button} from "@chakra-ui/react"
 
 export function ButtonTest(props: any) {
-  return <button  onClick={() => props.onClick()}>{props.children}</button>;
+  return <Button>{props.children}</Button>;
 }
 
 export default ButtonTest;

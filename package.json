@@ -5,11 +5,16 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.4",
     "react": "18.2.0",
     "yarn": "1.22.19"
   },
   "devDependencies": {
     "@nx/workspace": "16.8.1",
+    "@types/react": "^18.2.22",
     "nx": "16.8.1",
     "nx-cloud": "latest",
     "typescript": "^5.2.2"
