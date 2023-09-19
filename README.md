@@ -1,5 +1,5 @@
 
-#nohoisting PWA kit app
+# No hoisting PWA kit app
 
 added the app in nohoist array, so that  dependency installed in its own app/node_modules folder
 its works with yarn package currently
